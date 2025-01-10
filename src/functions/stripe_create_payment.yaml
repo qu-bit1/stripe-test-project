@@ -1,0 +1,10 @@
+id: create_stripe_payment
+summary: Create a payment intent with Stripe
+tasks:
+  - id: create_payment
+    fn: datasource.stripe.paymentIntents.create
+    args:
+      amount: 2000000
+      currency: "usd"
+      payment_method_types:
+        - "card"

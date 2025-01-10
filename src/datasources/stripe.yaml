@@ -1,0 +1,5 @@
+type: axios
+base_url: https://api.stripe.com/v1
+headers:
+  Authorization: Bearer <%config.STRIPE_API_KEY%>
+  Content-Type: application/json

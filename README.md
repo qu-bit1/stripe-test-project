@@ -1,0 +1,1 @@
+get your stripe secret test api key from their website add it to `.env`
