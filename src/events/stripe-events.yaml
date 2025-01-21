@@ -1,3 +1,22 @@
+"http.post./stripe/create-payment":
+  fn: stripe_create_payment
+  authn: false
+  body:
+    type: object
+    properties:
+      amount:
+        type: number
+      currency:
+        type: string
+    required:
+      - amount
+      - currency
+  responses:
+    200:
+      content:
+        application/json:
+          type: object
+
 "http.post./stripe/payment-success":
   fn: stripe_payment_success
   authn: false

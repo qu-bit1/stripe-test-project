@@ -42,7 +42,7 @@
 		"@godspeedsystems/core": "^2.4.8",
 		"@godspeedsystems/plugins-axios-as-datasource": "^1.0.3",
 		"@godspeedsystems/plugins-express-as-http": "^1.0.17",
-		"@godspeedsystems/plugins-stripe-as-datasource": "file:../stripe-as-datasource",
+		"@godspeedsystems/plugins-stripe-as-datasource": "file:../gs-plugins/plugins/stripe-as-datasource",
 		"@prisma/client": "^5.2.0",
 		"config": "^3.3.9",
 		"dotenv": "^16.4.5",
